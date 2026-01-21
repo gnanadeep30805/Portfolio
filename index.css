@@ -94,53 +94,92 @@ h2::after {
     color: #94a3b8;
 }
 
+/* Navbar container */
+/* NAVBAR – COMMON STYLE */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 18px 60px;
+    background: rgba(2, 6, 23, 0.85);
+    backdrop-filter: blur(12px);
+
+    border-bottom: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+/* LOGO */
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    color: #38bdf8;
+    letter-spacing: 1px;
+}
+
+/* MENU */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+
+/* LINKS */
+.menu a {
+    text-decoration: none;
+    color: #e5e7eb;
+    padding: 8px 18px;
+    border-radius: 999px;
+    font-size: 14px;
+
+    transition: all 0.3s ease;
+}
+
+/* HOVER + ACTIVE */
+.menu a:hover,
+.menu a.active {
+    background: linear-gradient(135deg, #38bdf8, #818cf8);
+    color: #020617;
+    box-shadow: 0 8px 25px rgba(56, 189, 248, 0.4);
+}
+
+
+.btn {
+    background: linear-gradient(135deg, #38bdf8, #818cf8);
+    color: #020617;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    box-shadow: 0 10px 25px rgba(56,189,248,0.4);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 20px 40px rgba(129,140,248,0.6);
+}
+
 footer {
     background: #020617;
     border-top: 1px solid rgba(148,163,184,0.15);
     color: #94a3b8;
 }
 
-/* Navbar */
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 50px;
-    background: #020617;
-    position: sticky;
-    top: 0;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #e5e7eb;
-}
-
-nav a:hover {
+.links a {
+    margin-right: 15px;
     color: #38bdf8;
+    text-decoration: none;
 }
 
-/* Hero */
-.hero {
+#contact{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero{
     text-align: center;
     padding: 100px 20px;
-}
-
-.hero span {
-    color: #38bdf8;
-}
-
-.btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 25px;
-    background: #38bdf8;
-    color: #020617;
-    text-decoration: none;
-    border-radius: 5px;
 }
