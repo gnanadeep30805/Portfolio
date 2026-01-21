@@ -6,8 +6,8 @@
 }
 
 body {
-    background: radial-gradient(circle at top, #020617, #000);
-    color: #e5e7eb;
+    background: radial-gradient(circle at top, #000000, #000000);
+    color: #000000;
 }
 
 /* Navbar */
@@ -49,41 +49,45 @@ body {
 }
 
 /* Certificates Section */
+/* =========================
+   CERTIFICATES PAGE STYLES
+   ========================= */
+
 .certificates {
     padding: 80px 60px;
     text-align: center;
 }
 
 .certificates h1 {
-    font-size: 36px;
+    font-size: 32px;
     color: #38bdf8;
+    margin-bottom: 10px;
 }
 
-.subtitle {
-    margin-top: 10px;
+.certificates .subtitle {
     color: #94a3b8;
+    font-size: 15px;
+    margin-bottom: 40px;
 }
 
 /* Grid */
 .certificate-grid {
-    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 30px;
 }
 
-/* Cards */
+/* Certificate Card */
 .certificate-card {
-    background: rgba(30, 41, 59, 0.75);
-    backdrop-filter: blur(10px);
+    background: rgba(126, 126, 126, 0.7);
     border-radius: 16px;
     padding: 18px;
+    border: 1px solid rgba(110, 115, 120, 0.15);
     transition: all 0.4s ease;
-    border: 1px solid rgba(148, 163, 184, 0.15);
 }
 
 .certificate-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-8px);
     box-shadow: 0 20px 40px rgba(56, 189, 248, 0.25);
     border-color: #38bdf8;
 }
@@ -99,6 +103,7 @@ body {
 .certificate-card h3 {
     font-size: 16px;
     margin-bottom: 5px;
+    color: #e5e7eb;
 }
 
 .certificate-card p {
@@ -106,10 +111,11 @@ body {
     color: #94a3b8;
 }
 
+
 /* Footer */
 footer {
     text-align: center;
     padding: 20px;
     border-top: 1px solid rgba(148, 163, 184, 0.15);
-    color: #94a3b8;
+    color: #b0b1b2;
 }
