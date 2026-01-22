@@ -101,51 +101,37 @@ h2::after {
     color: #94a3b8;
 }
 
-/* Navbar container */
-/* NAVBAR – COMMON STYLE */
+/* Navbar */
 .navbar {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 18px 60px;
     background: rgba(2, 6, 23, 0.85);
     backdrop-filter: blur(12px);
-
     border-bottom: 1px solid rgba(56, 189, 248, 0.2);
 }
 
-/* LOGO */
 .logo {
     font-size: 22px;
     font-weight: 700;
     color: #38bdf8;
-    letter-spacing: 1px;
 }
 
-/* MENU */
 .menu {
     list-style: none;
     display: flex;
     gap: 18px;
 }
 
-/* LINKS */
 .menu a {
     text-decoration: none;
-    color: #e5e7eb;
+    color: #ffffff;
     padding: 8px 18px;
     border-radius: 999px;
-    font-size: 14px;
-
     transition: all 0.3s ease;
 }
 
-/* HOVER + ACTIVE */
 .menu a:hover,
 .menu a.active {
     background: linear-gradient(135deg, #38bdf8, #818cf8);
@@ -170,10 +156,10 @@ h2::after {
 }
 
 footer {
-    background: #020617;
-    border-top: 1px solid rgba(148,163,184,0.15);
-    color: #94a3b8;
     text-align: center;
+    padding: 20px;
+    border-top: 1px solid rgba(148, 163, 184, 0.15);
+    color: #b0b1b2;
 }
 
 .links a {
