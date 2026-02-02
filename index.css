@@ -168,6 +168,11 @@ footer {
     text-decoration: none;
 }
 
+#profiles{
+    text-align: center;
+    padding: 50px 20px;
+}
+
 #contact{
     text-align: center;
     padding: 50px 20px;
