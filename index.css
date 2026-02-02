@@ -76,11 +76,13 @@ h2::after {
 
 .project-card {
     background: rgba(30,41,59,0.7);
+    width: 80%;
     backdrop-filter: blur(10px);
     border: 1px solid rgba(148,163,184,0.15);
     border-radius: 16px;
     font-size: 16px;
     padding: 25px;
+    margin-left: 10%;
     margin-bottom: 30px;
     transition: all 0.4s ease;
 }
@@ -181,4 +183,66 @@ footer {
 .hero{
     text-align: center;
     padding: 100px 20px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; /* responsive */
+  margin-top: 20px;
+}
+
+.social-card {
+  display: flex;
+  flex-direction: column; /* makes name go below */
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.social-card img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.social-card a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.social-card a:hover {
+  color: #38bdf8;
+}
+
+/* logos */
+#logo {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+#gmail {
+    width: 36px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.about-card{
+    background: rgba(30,41,59,0.7);
+    width: 80%;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(148,163,184,0.15);
+    border-radius: 16px;
+    font-size: 16px;
+    padding: 25px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    transition: all 0.4s ease;
 }
