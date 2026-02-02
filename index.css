@@ -234,7 +234,7 @@ footer {
     margin-right: 8px;
 }
 
-.about-card{
+.card{
     background: rgba(30,41,59,0.7);
     width: 80%;
     backdrop-filter: blur(10px);
